@@ -72,10 +72,10 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "node init && gatsby build",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "node init && npm run develop",
+    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "jest -i -u --coverage",
